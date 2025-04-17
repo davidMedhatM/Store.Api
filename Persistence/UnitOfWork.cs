@@ -19,6 +19,7 @@ namespace Persistence
         public UnitOfWork(StoreDbContext context)
         {
             _context = context;
+            _repositories = new ConcurrentDictionary<string, object>();
         }
 
         public IGenericRepository<TEntity, TKey> GetRepository<TEntity, TKey>()
