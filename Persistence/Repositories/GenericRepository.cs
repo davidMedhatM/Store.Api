@@ -47,5 +47,7 @@ namespace Persistence.Repositories
 
         public void Delete(TEntity entity)
             => _context.Set<TEntity>().Remove(entity);
+        public async Task<int> CountAsync(Specification<TEntity> specifications)
+            => await ApplySpecification(specifications).CountAsync();
     }
 }
