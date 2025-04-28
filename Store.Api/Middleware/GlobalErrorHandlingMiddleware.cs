@@ -56,6 +56,7 @@ namespace Shared.Middleware
             httpContext.Response.StatusCode = ex switch
             {
                 NotFoundException => (int)HttpStatusCode.NotFound,
+                UnAuthorizedException => (int)HttpStatusCode.Unauthorized,
                 ValidationException validationException => HandleValidationException(validationException, response),
                 _ => (int)HttpStatusCode.InternalServerError
             };
