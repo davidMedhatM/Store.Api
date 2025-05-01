@@ -2,6 +2,7 @@
 using Domain.Entities.Identity;
 using Domain.Exceptions;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Services.Abstractions;
@@ -81,7 +82,7 @@ namespace Services
                 claims.Add(new Claim(ClaimTypes.Role, role));
             }
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("top-secret-key"));
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtOptions.SecurityKey));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var token = new JwtSecurityToken(
@@ -93,6 +94,51 @@ namespace Services
             );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+        public async Task<AddressDto> GetUserAddressAsync(string email)
+        {
+            var user = await userManager.Users.Include(x => x.Address)
+                .FirstOrDefaultAsync(x => x.Email == email);
+
+            if (user is null)
+                throw new UserNotFoundException(email);
+
+            return mapper.Map<AddressDto>(user.Address);
+        }
+        public async Task<UserResultDto> GetUserByEmailAsync(string email)
+        {
+            var user = await userManager.FindByEmailAsync(email);
+
+            if (user is null)
+                throw new UserNotFoundException(email);
+
+            return new UserResultDto(
+                user.DisplayName,
+                user.Email,
+                null
+            );
+        }
+        public async Task<bool> IsEmailExist(string email)
+        {
+            var user = await userManager.FindByEmailAsync(email);
+
+            return user is not null;
+        }
+        public async Task<AddressDto> UpdateUserAddressAsync(string email, AddressDto addressDto)
+        {
+            var user = await userManager.Users.Include(x => x.Address)
+                .FirstOrDefaultAsync(x => x.Email == email);
+
+            if (user is null)
+                throw new UserNotFoundException(email);
+
+            var mappedAddress = mapper.Map<Address>(addressDto);
+            user.Address = mappedAddress;
+
+            await userManager.UpdateAsync(user);
+
+            return addressDto;
         }
     }
 }
