@@ -13,6 +13,7 @@ D:\CRS\BACKEND\c#\Store.Api\Domain\obj\Debug\net8.0\Domain.sourcelink.json
 D:\CRS\route\BACKEND\c#\Store.Api\Domain\bin\Debug\net8.0\Domain.deps.json
 D:\CRS\route\BACKEND\c#\Store.Api\Domain\bin\Debug\net8.0\Domain.dll
 D:\CRS\route\BACKEND\c#\Store.Api\Domain\bin\Debug\net8.0\Domain.pdb
+D:\CRS\route\BACKEND\c#\Store.Api\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
 D:\CRS\route\BACKEND\c#\Store.Api\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\CRS\route\BACKEND\c#\Store.Api\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
 D:\CRS\route\BACKEND\c#\Store.Api\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
@@ -22,4 +23,3 @@ D:\CRS\route\BACKEND\c#\Store.Api\Domain\obj\Debug\net8.0\Domain.dll
 D:\CRS\route\BACKEND\c#\Store.Api\Domain\obj\Debug\net8.0\refint\Domain.dll
 D:\CRS\route\BACKEND\c#\Store.Api\Domain\obj\Debug\net8.0\Domain.pdb
 D:\CRS\route\BACKEND\c#\Store.Api\Domain\obj\Debug\net8.0\ref\Domain.dll
-D:\CRS\route\BACKEND\c#\Store.Api\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
