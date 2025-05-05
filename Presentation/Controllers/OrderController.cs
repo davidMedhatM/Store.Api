@@ -37,5 +37,6 @@ namespace Presentation.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<DeliveryMethodResult>>> GetDeliveryMethods()
             => Ok(await serviceManager.OrderService.GetDeliveryMethodsAsync());
+        //
     }
 }
