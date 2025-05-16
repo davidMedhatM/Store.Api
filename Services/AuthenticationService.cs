@@ -96,7 +96,7 @@ namespace Services
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
-        public async Task<AddressDto> GetUserAddressAsync(string email)
+        public async Task<IdentityAddressDto> GetUserAddressAsync(string email)
         {
             var user = await userManager.Users.Include(x => x.Address)
                 .FirstOrDefaultAsync(x => x.Email == email);
@@ -104,7 +104,7 @@ namespace Services
             if (user is null)
                 throw new UserNotFoundException(email);
 
-            return mapper.Map<AddressDto>(user.Address);
+            return mapper.Map<IdentityAddressDto>(user.Address);
         }
         public async Task<UserResultDto> GetUserByEmailAsync(string email)
         {
@@ -125,7 +125,7 @@ namespace Services
 
             return user is not null;
         }
-        public async Task<AddressDto> UpdateUserAddressAsync(string email, AddressDto addressDto)
+        public async Task<IdentityAddressDto> UpdateUserAddressAsync(string email, IdentityAddressDto addressDto)
         {
             var user = await userManager.Users.Include(x => x.Address)
                 .FirstOrDefaultAsync(x => x.Email == email);

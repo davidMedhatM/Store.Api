@@ -34,7 +34,7 @@ namespace Presentation.Controllers
 
         [HttpGet]
         [Authorize]
-        public async Task<ActionResult<AddressDto>> GetUserAddress()
+        public async Task<ActionResult<IdentityAddressDto>> GetUserAddress()
         {
             var email = User.FindFirst(ClaimTypes.Email).Value;
 
@@ -45,7 +45,7 @@ namespace Presentation.Controllers
 
         [HttpPut]
         [Authorize]
-        public async Task<ActionResult<AddressDto>> UpdateUserAddress(AddressDto addressDto)
+        public async Task<ActionResult<IdentityAddressDto>> UpdateUserAddress(IdentityAddressDto addressDto)
         {
             var email = User.FindFirst(ClaimTypes.Email).Value;
 

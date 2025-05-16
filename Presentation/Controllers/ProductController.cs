@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Presentation.Attributes;
 using Services.Abstractions;
 using Shared;
 using Shared.ErrorModels;
@@ -17,6 +18,7 @@ namespace Presentation.Controllers
     public class ProductController(IServiceManager serviceManager) : ApiController
     {
         [HttpGet]
+        [RedisCache]
         public async Task<ActionResult<PaginatedResult<ProductResultDto>>> GetAllProducts([FromQuery]ProductSpecificationParams specs)
         {
             var products = await serviceManager.ProductService.GetAllProductsAsync(specs);

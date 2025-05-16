@@ -1,7 +1,72 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{338DC5E6-FC84-4328-AFCC-47C4AEFCE079}|Presentation\\Presentation.csproj|d:\\crs\\route\\backend\\c#\\store.api\\presentation\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{338DC5E6-FC84-4328-AFCC-47C4AEFCE079}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{338DC5E6-FC84-4328-AFCC-47C4AEFCE079}|Presentation\\Presentation.csproj|d:\\crs\\route\\backend\\c#\\store.api\\presentation\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{338DC5E6-FC84-4328-AFCC-47C4AEFCE079}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{338DC5E6-FC84-4328-AFCC-47C4AEFCE079}|Presentation\\Presentation.csproj|d:\\crs\\route\\backend\\c#\\store.api\\presentation\\attributes\\rediscacheattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{338DC5E6-FC84-4328-AFCC-47C4AEFCE079}|Presentation\\Presentation.csproj|solutionrelative:presentation\\attributes\\rediscacheattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82C2D83-1D2F-4E9B-9F5E-FC1804A95FAD}|Services\\Services.csproj|d:\\crs\\route\\backend\\c#\\store.api\\services\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82C2D83-1D2F-4E9B-9F5E-FC1804A95FAD}|Services\\Services.csproj|solutionrelative:services\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82C2D83-1D2F-4E9B-9F5E-FC1804A95FAD}|Services\\Services.csproj|d:\\crs\\route\\backend\\c#\\store.api\\services\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82C2D83-1D2F-4E9B-9F5E-FC1804A95FAD}|Services\\Services.csproj|solutionrelative:services\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803808CF-F4ED-42A2-8541-3BD42B289AAF}|Services.Abstractions\\Services.Abstractions.csproj|d:\\crs\\route\\backend\\c#\\store.api\\services.abstractions\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803808CF-F4ED-42A2-8541-3BD42B289AAF}|Services.Abstractions\\Services.Abstractions.csproj|solutionrelative:services.abstractions\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803808CF-F4ED-42A2-8541-3BD42B289AAF}|Services.Abstractions\\Services.Abstractions.csproj|d:\\crs\\route\\backend\\c#\\store.api\\services.abstractions\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803808CF-F4ED-42A2-8541-3BD42B289AAF}|Services.Abstractions\\Services.Abstractions.csproj|solutionrelative:services.abstractions\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A243F8CF-7644-4604-A276-277DAA885C04}|Store.Api\\Store.Api.csproj|d:\\crs\\route\\backend\\c#\\store.api\\store.api\\extensions\\infrastructureservicesextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A243F8CF-7644-4604-A276-277DAA885C04}|Store.Api\\Store.Api.csproj|solutionrelative:store.api\\extensions\\infrastructureservicesextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2307FD08-BE28-4831-B468-973116B740FF}|Persistence\\Persistence.csproj|d:\\crs\\route\\backend\\c#\\store.api\\persistence\\repositories\\cacherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2307FD08-BE28-4831-B468-973116B740FF}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\cacherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC370BA-DC7B-476F-8E38-D0367226D7D0}|Domain\\Domain.csproj|d:\\crs\\route\\backend\\c#\\store.api\\domain\\contracts\\icacherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFC370BA-DC7B-476F-8E38-D0367226D7D0}|Domain\\Domain.csproj|solutionrelative:domain\\contracts\\icacherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82C2D83-1D2F-4E9B-9F5E-FC1804A95FAD}|Services\\Services.csproj|d:\\crs\\route\\backend\\c#\\store.api\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82C2D83-1D2F-4E9B-9F5E-FC1804A95FAD}|Services\\Services.csproj|solutionrelative:services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D82C2D83-1D2F-4E9B-9F5E-FC1804A95FAD}|Services\\Services.csproj|d:\\crs\\route\\backend\\c#\\store.api\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D82C2D83-1D2F-4E9B-9F5E-FC1804A95FAD}|Services\\Services.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A243F8CF-7644-4604-A276-277DAA885C04}|Store.Api\\Store.Api.csproj|d:\\crs\\route\\backend\\c#\\store.api\\store.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A243F8CF-7644-4604-A276-277DAA885C04}|Store.Api\\Store.Api.csproj|solutionrelative:store.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A392D86-269A-491F-8E41-C8D809B3BB0F}|Shared\\Shared.csproj|d:\\crs\\route\\backend\\c#\\store.api\\shared\\identitydtos\\identityaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A392D86-269A-491F-8E41-C8D809B3BB0F}|Shared\\Shared.csproj|solutionrelative:shared\\identitydtos\\identityaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC370BA-DC7B-476F-8E38-D0367226D7D0}|Domain\\Domain.csproj|d:\\crs\\route\\backend\\c#\\store.api\\domain\\entities\\orderentities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFC370BA-DC7B-476F-8E38-D0367226D7D0}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\orderentities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2307FD08-BE28-4831-B468-973116B740FF}|Persistence\\Persistence.csproj|d:\\crs\\route\\backend\\c#\\store.api\\persistence\\migrations\\20250515180542_addpaymentintentidtoordertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2307FD08-BE28-4831-B468-973116B740FF}|Persistence\\Persistence.csproj|solutionrelative:persistence\\migrations\\20250515180542_addpaymentintentidtoordertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +83,203 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Presentation\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Presentation\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:10:25.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RedisCacheAttribute.cs",
+              "DocumentMoniker": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Presentation\\Attributes\\RedisCacheAttribute.cs",
+              "RelativeDocumentMoniker": "Presentation\\Attributes\\RedisCacheAttribute.cs",
+              "ToolTip": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Presentation\\Attributes\\RedisCacheAttribute.cs",
+              "RelativeToolTip": "Presentation\\Attributes\\RedisCacheAttribute.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:07:14.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CacheService.cs",
+              "DocumentMoniker": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Services\\CacheService.cs",
+              "RelativeDocumentMoniker": "Services\\CacheService.cs",
+              "ToolTip": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Services\\CacheService.cs",
+              "RelativeToolTip": "Services\\CacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:02:08.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICacheService.cs",
+              "DocumentMoniker": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Services.Abstractions\\ICacheService.cs",
+              "RelativeDocumentMoniker": "Services.Abstractions\\ICacheService.cs",
+              "ToolTip": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Services.Abstractions\\ICacheService.cs",
+              "RelativeToolTip": "Services.Abstractions\\ICacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:57:44.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InfrastructureServicesExtension.cs",
+              "DocumentMoniker": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Store.Api\\Extensions\\InfrastructureServicesExtension.cs",
+              "RelativeDocumentMoniker": "Store.Api\\Extensions\\InfrastructureServicesExtension.cs",
+              "ToolTip": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Store.Api\\Extensions\\InfrastructureServicesExtension.cs",
+              "RelativeToolTip": "Store.Api\\Extensions\\InfrastructureServicesExtension.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:52:55.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CacheRepository.cs",
+              "DocumentMoniker": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Persistence\\Repositories\\CacheRepository.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\CacheRepository.cs",
+              "ToolTip": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Persistence\\Repositories\\CacheRepository.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\CacheRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:36:52.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICacheRepository.cs",
+              "DocumentMoniker": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Domain\\Contracts\\ICacheRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Contracts\\ICacheRepository.cs",
+              "ToolTip": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Domain\\Contracts\\ICacheRepository.cs",
+              "RelativeToolTip": "Domain\\Contracts\\ICacheRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:32:29.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Services\\PaymentService.cs",
+              "RelativeDocumentMoniker": "Services\\PaymentService.cs",
+              "ToolTip": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Services\\PaymentService.cs",
+              "RelativeToolTip": "Services\\PaymentService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:05:32.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:05:26.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Store.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Store.Api\\appsettings.json",
+              "ToolTip": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Store.Api\\appsettings.json",
+              "RelativeToolTip": "Store.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-15T18:55:23.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IdentityAddressDto.cs",
+              "DocumentMoniker": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Shared\\IdentityDtos\\IdentityAddressDto.cs",
+              "RelativeDocumentMoniker": "Shared\\IdentityDtos\\IdentityAddressDto.cs",
+              "ToolTip": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Shared\\IdentityDtos\\IdentityAddressDto.cs",
+              "RelativeToolTip": "Shared\\IdentityDtos\\IdentityAddressDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:46:08.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Presentation\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\PaymentController.cs",
+              "ToolTip": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Presentation\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:37:09.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IServiceManager.cs",
+              "DocumentMoniker": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Services.Abstractions\\IServiceManager.cs",
+              "RelativeDocumentMoniker": "Services.Abstractions\\IServiceManager.cs",
+              "ToolTip": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Services.Abstractions\\IServiceManager.cs",
+              "RelativeToolTip": "Services.Abstractions\\IServiceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:30:00.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceManager.cs",
+              "DocumentMoniker": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Services\\ServiceManager.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceManager.cs",
+              "ToolTip": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Services\\ServiceManager.cs",
+              "RelativeToolTip": "Services\\ServiceManager.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:29:45.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250515180542_AddPaymentIntentIdToOrderTable.cs",
+              "DocumentMoniker": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Persistence\\Migrations\\20250515180542_AddPaymentIntentIdToOrderTable.cs",
+              "RelativeDocumentMoniker": "Persistence\\Migrations\\20250515180542_AddPaymentIntentIdToOrderTable.cs",
+              "ToolTip": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Persistence\\Migrations\\20250515180542_AddPaymentIntentIdToOrderTable.cs",
+              "RelativeToolTip": "Persistence\\Migrations\\20250515180542_AddPaymentIntentIdToOrderTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:05:42.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Domain\\Entities\\OrderEntities\\Order.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\OrderEntities\\Order.cs",
+              "ToolTip": "D:\\CRS\\route\\BACKEND\\c#\\Store.Api\\Domain\\Entities\\OrderEntities\\Order.cs",
+              "RelativeToolTip": "Domain\\Entities\\OrderEntities\\Order.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:02:14.802Z"
             }
           ]
         }
